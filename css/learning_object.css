@@ -1,0 +1,968 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon4f8b.eot?hgacq7");
+  src: url("fonts/icomoon4f8b.eot?hgacq7#iefix") format("embedded-opentype"), url("fonts/icomoon4f8b.ttf?hgacq7") format("truetype"), url("fonts/icomoon4f8b.woff?hgacq7") format("woff"), url("fonts/icomoon4f8b.svg?hgacq7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-chemistry:before, .icon-biology:before, .icon-math:before, .icon-physics:before, .icon-portuguese:before, .icon-philosophy:before, .icon-geography:before, .icon-history:before, .icon-sociology:before, .icon-ico-videos:before, .icon-ico-exercicios:before, .icon-bullet:before, .geekie-games-pro-banner .banner-points li:before, .history .lecture-subject::before, .geography .lecture-subject::before, .philosophy .lecture-subject::before, .sociology .lecture-subject::before, .biology .lecture-subject::before, .chemistry .lecture-subject::before, .physics .lecture-subject::before, .math .lecture-subject::before, .portuguese .lecture-subject::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chemistry:before {
+  content: "\e902"; }
+
+.icon-biology:before {
+  content: "\e903"; }
+
+.icon-math:before {
+  content: "\e906"; }
+
+.icon-physics:before {
+  content: "\e905"; }
+
+.icon-portuguese:before {
+  content: "\e908"; }
+
+.icon-philosophy:before {
+  content: "\e907"; }
+
+.icon-geography:before {
+  content: "\e904"; }
+
+.icon-history:before {
+  content: "\e909"; }
+
+.icon-sociology:before {
+  content: "\e90a"; }
+
+.icon-ico-videos:before {
+  content: "\e900"; }
+
+.icon-ico-exercicios:before {
+  content: "\e901"; }
+
+.icon-bullet:before, .geekie-games-pro-banner .banner-points li:before {
+  content: "\e90b"; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon4f8b.eot?hgacq7");
+  src: url("fonts/icomoon4f8b.eot?hgacq7#iefix") format("embedded-opentype"), url("fonts/icomoon4f8b.ttf?hgacq7") format("truetype"), url("fonts/icomoon4f8b.woff?hgacq7") format("woff"), url("fonts/icomoon4f8b.svg?hgacq7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-chemistry:before, .icon-biology:before, .icon-math:before, .icon-physics:before, .icon-portuguese:before, .icon-philosophy:before, .icon-geography:before, .icon-history:before, .icon-sociology:before, .icon-ico-videos:before, .icon-ico-exercicios:before, .icon-bullet:before, .geekie-games-pro-banner .banner-points li:before, .history .lecture-subject::before, .geography .lecture-subject::before, .philosophy .lecture-subject::before, .sociology .lecture-subject::before, .biology .lecture-subject::before, .chemistry .lecture-subject::before, .physics .lecture-subject::before, .math .lecture-subject::before, .portuguese .lecture-subject::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chemistry:before {
+  content: "\e902"; }
+
+.icon-biology:before {
+  content: "\e903"; }
+
+.icon-math:before {
+  content: "\e906"; }
+
+.icon-physics:before {
+  content: "\e905"; }
+
+.icon-portuguese:before {
+  content: "\e908"; }
+
+.icon-philosophy:before {
+  content: "\e907"; }
+
+.icon-geography:before {
+  content: "\e904"; }
+
+.icon-history:before {
+  content: "\e909"; }
+
+.icon-sociology:before {
+  content: "\e90a"; }
+
+.icon-ico-videos:before {
+  content: "\e900"; }
+
+.icon-ico-exercicios:before {
+  content: "\e901"; }
+
+.icon-bullet:before, .geekie-games-pro-banner .banner-points li:before {
+  content: "\e90b"; }
+
+.main-container .actions .start-lecture-button, .geekie-games-pro-banner .banner-points .start-now-button, .read-more-container .read-more-button, .lecture-header-container .lecture-content .subject-button, .lecture-header-container .lecture-content .more-lo-button {
+  text-decoration: none; }
+
+.main-container .actions .start-lecture-button {
+  border-radius: 2px;
+  text-align: center;
+  background-color: #ff530d;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 10px 31px;
+  font-size: 24px;
+  display: inline-block;
+  letter-spacing: -0.3px; }
+  .main-container .actions .start-lecture-button:hover, .main-container .actions .start-lecture-button:active {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.54); }
+
+.geekie-games-pro-banner .banner-points .start-now-button {
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white; }
+
+.main-container .actions, .main-container .lecture-description {
+  border-bottom: 1px solid #eeeeee; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon4f8b.eot?hgacq7");
+  src: url("fonts/icomoon4f8b.eot?hgacq7#iefix") format("embedded-opentype"), url("fonts/icomoon4f8b.ttf?hgacq7") format("truetype"), url("fonts/icomoon4f8b.woff?hgacq7") format("woff"), url("fonts/icomoon4f8b.svg?hgacq7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-chemistry:before, .icon-biology:before, .icon-math:before, .icon-physics:before, .icon-portuguese:before, .icon-philosophy:before, .icon-geography:before, .icon-history:before, .icon-sociology:before, .icon-ico-videos:before, .icon-ico-exercicios:before, .icon-bullet:before, .geekie-games-pro-banner .banner-points li:before, .history .lecture-subject::before, .geography .lecture-subject::before, .philosophy .lecture-subject::before, .sociology .lecture-subject::before, .biology .lecture-subject::before, .chemistry .lecture-subject::before, .physics .lecture-subject::before, .math .lecture-subject::before, .portuguese .lecture-subject::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chemistry:before {
+  content: "\e902"; }
+
+.icon-biology:before {
+  content: "\e903"; }
+
+.icon-math:before {
+  content: "\e906"; }
+
+.icon-physics:before {
+  content: "\e905"; }
+
+.icon-portuguese:before {
+  content: "\e908"; }
+
+.icon-philosophy:before {
+  content: "\e907"; }
+
+.icon-geography:before {
+  content: "\e904"; }
+
+.icon-history:before {
+  content: "\e909"; }
+
+.icon-sociology:before {
+  content: "\e90a"; }
+
+.icon-ico-videos:before {
+  content: "\e900"; }
+
+.icon-ico-exercicios:before {
+  content: "\e901"; }
+
+.icon-bullet:before, .geekie-games-pro-banner .banner-points li:before {
+  content: "\e90b"; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon4f8b.eot?hgacq7");
+  src: url("fonts/icomoon4f8b.eot?hgacq7#iefix") format("embedded-opentype"), url("fonts/icomoon4f8b.ttf?hgacq7") format("truetype"), url("fonts/icomoon4f8b.woff?hgacq7") format("woff"), url("fonts/icomoon4f8b.svg?hgacq7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-chemistry:before, .icon-biology:before, .icon-math:before, .icon-physics:before, .icon-portuguese:before, .icon-philosophy:before, .icon-geography:before, .icon-history:before, .icon-sociology:before, .icon-ico-videos:before, .icon-ico-exercicios:before, .icon-bullet:before, .geekie-games-pro-banner .banner-points li:before, .history .lecture-subject::before, .geography .lecture-subject::before, .philosophy .lecture-subject::before, .sociology .lecture-subject::before, .biology .lecture-subject::before, .chemistry .lecture-subject::before, .physics .lecture-subject::before, .math .lecture-subject::before, .portuguese .lecture-subject::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chemistry:before {
+  content: "\e902"; }
+
+.icon-biology:before {
+  content: "\e903"; }
+
+.icon-math:before {
+  content: "\e906"; }
+
+.icon-physics:before {
+  content: "\e905"; }
+
+.icon-portuguese:before {
+  content: "\e908"; }
+
+.icon-philosophy:before {
+  content: "\e907"; }
+
+.icon-geography:before {
+  content: "\e904"; }
+
+.icon-history:before {
+  content: "\e909"; }
+
+.icon-sociology:before {
+  content: "\e90a"; }
+
+.icon-ico-videos:before {
+  content: "\e900"; }
+
+.icon-ico-exercicios:before {
+  content: "\e901"; }
+
+.icon-bullet:before, .geekie-games-pro-banner .banner-points li:before {
+  content: "\e90b"; }
+
+.main-container .actions .start-lecture-button, .geekie-games-pro-banner .banner-points .start-now-button, .read-more-container .read-more-button, .lecture-header-container .lecture-content .subject-button, .lecture-header-container .lecture-content .more-lo-button {
+  text-decoration: none; }
+
+.main-container .actions .start-lecture-button {
+  border-radius: 2px;
+  text-align: center;
+  background-color: #ff530d;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 10px 31px;
+  font-size: 24px;
+  display: inline-block;
+  letter-spacing: -0.3px; }
+  .main-container .actions .start-lecture-button:hover, .main-container .actions .start-lecture-button:active {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.54); }
+
+.geekie-games-pro-banner .banner-points .start-now-button {
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white; }
+
+.main-container .actions, .main-container .lecture-description {
+  border-bottom: 1px solid #eeeeee; }
+
+.geekie-games-pro-banner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(255, 255, 255, 0.87);
+  margin-top: 30px; }
+  @media (max-width: 800px) {
+    .geekie-games-pro-banner {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-box-direction: normal;
+      -moz-box-direction: normal;
+      box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      margin-top: 20px; } }
+  .geekie-games-pro-banner .banner-title {
+    width: 50%;
+    font-size: 22px;
+    padding: 28px;
+    background-color: #4a4a4a;
+    font-weight: lighter;
+    border-radius: 4px 0px 0px 4px; }
+    .geekie-games-pro-banner .banner-title p {
+      margin: 0px; }
+    @media (max-width: 800px) {
+      .geekie-games-pro-banner .banner-title {
+        width: 100%;
+        padding: 20px;
+        border-radius: 4px 4px 0px 0px; } }
+    @media (max-width: 350px) {
+      .geekie-games-pro-banner .banner-title {
+        font-size: 14px; } }
+  .geekie-games-pro-banner .banner-points {
+    width: 50%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    font-size: 15px;
+    padding: 28px;
+    background-color: #ea5a07;
+    border-radius: 0px 4px 4px 0px; }
+    .geekie-games-pro-banner .banner-points ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none; }
+    .geekie-games-pro-banner .banner-points li::before {
+      color: #f5a623;
+      margin-right: 9px; }
+    .geekie-games-pro-banner .banner-points .start-now-button {
+      text-align: center; }
+    @media (max-width: 800px) {
+      .geekie-games-pro-banner .banner-points {
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        box-align: start;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        align-items: flex-start;
+        -ms-flex-align: start;
+        padding: 20px;
+        border-radius: 0px 0px 4px 4px;
+        width: 100%; }
+        .geekie-games-pro-banner .banner-points .start-now-button {
+          margin-top: 15px; } }
+  .geekie-games-pro-banner .text-big {
+    font-size: 120%; }
+  .geekie-games-pro-banner .brand-name {
+    font-weight: normal;
+    color: white; }
+
+.video-modal {
+  width: 520px;
+  max-width: 90%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: Lato; }
+  .video-modal::before {
+    content: "";
+    background: transparent url(../img/icon-foguete.png) no-repeat center center;
+    background: transparent url(http://geekie.cachefly.net/frontroom/production/img/icon-foguete.svg) no-repeat center center;
+    display: block;
+    height: 75px;
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 15px; }
+  .video-modal h2 {
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+    color: #6d6d6d; }
+  .video-modal header {
+    text-align: center;
+    margin-bottom: 25px; }
+  .video-modal .modal-content {
+    text-align: center;
+    background-color: #ff5200;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: -0.2px;
+    color: #ffffff; }
+    .video-modal .modal-content p {
+      margin: 0px auto;
+      max-width: 350px; }
+  .video-modal p.modal-headline {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+    margin-bottom: 30px; }
+  .video-modal .call-to-action {
+    display: inline-block;
+    margin: 20px 0px 0px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.3px; }
+    .video-modal .call-to-action, .video-modal .call-to-action:hover, .video-modal .call-to-action:active {
+      text-decoration: none;
+      color: white; }
+
+.read-more-container {
+  position: relative; }
+  .read-more-container .read-more-button {
+    cursor: pointer;
+    background-color: transparent;
+    background-image: linear-gradient(to top, #f5f5f5 55%, rgba(255, 255, 255, 0));
+    padding-top: 15px;
+    text-align: bottom;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #ff530d;
+    font-size: 13px; }
+    .read-more-container .read-more-button:hover, .read-more-container .read-more-button:active {
+      color: #ff530d; }
+    .read-more-container .read-more-button::before {
+      content: '»'; }
+
+.read-more-container.opened .read-more-button {
+  display: none; }
+
+.read-more-container.closed {
+  padding-bottom: 30px;
+  max-height: 136px;
+  overflow: hidden; }
+
+.lecture-header-container {
+  background: white; }
+  .lecture-header-container .lecture-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    margin: 25px auto; }
+    .lecture-header-container .lecture-content .lecture-subject {
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -moz-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0px;
+      margin-right: 20px; }
+    .lecture-header-container .lecture-content .lecture-name {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex: 1 0 auto;
+      -moz-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto; }
+      .lecture-header-container .lecture-content .lecture-name p {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px; }
+      .lecture-header-container .lecture-content .lecture-name h1 {
+        font-weight: normal;
+        margin: 0px;
+        font-size: 14px; }
+    .lecture-header-container .lecture-content .more-lo-button {
+      font-size: 14px;
+      letter-spacing: -0.2px; }
+    @media (max-width: 800px) {
+      .lecture-header-container .lecture-content {
+        position: relative;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        box-align: start;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        align-items: flex-start;
+        -ms-flex-align: start;
+        margin: 15px auto; }
+        .lecture-header-container .lecture-content .lecture-subject {
+          margin-bottom: 16px;
+          font-size: 18px; }
+        .lecture-header-container .lecture-content .more-lo-button {
+          font-size: 12px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          line-height: 24px; } }
+
+.main-container {
+  background: #f5f5f5;
+  padding-bottom: 36px; }
+  .main-container .actions {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    padding-bottom: 20px;
+    margin: 20px 0; }
+    .main-container .actions .fb-share-button {
+      margin-left: 10px; }
+    .main-container .actions span {
+      letter-spacing: -0.2px;
+      margin-bottom: 0px;
+      font-size: 16px; }
+    @media (max-width: 700px) {
+      .main-container .actions {
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -moz-box-direction: reverse;
+        box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -moz-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        -webkit-box-pack: justify;
+        -moz-box-pack: justify;
+        box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        -ms-flex-pack: justify;
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        box-align: start;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        align-items: flex-start;
+        -ms-flex-align: start;
+        padding-bottom: 20px;
+        margin: 10px 0 20px 0; }
+        .main-container .actions .start-lecture-button {
+          width: 100%;
+          margin-bottom: 16px;
+          font-size: 18px; }
+        .main-container .actions span {
+          font-size: 14px; } }
+  .main-container .lecture-details {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row; }
+    .main-container .lecture-details .lecture-items {
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -moz-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      padding: 0px;
+      margin-left: 18px;
+      margin-top: 16px;
+      list-style-type: none;
+      font-size: 32px; }
+      .main-container .lecture-details .lecture-items .icon {
+        margin-right: 9px;
+        color: #ff530d; }
+    .main-container .lecture-details .lecture-steps {
+      list-style-type: none;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2; }
+      .main-container .lecture-details .lecture-steps li {
+        margin-bottom: 5px; }
+        .main-container .lecture-details .lecture-steps li::before {
+          font-family: 'FontAwesome';
+          content: '\f00c';
+          margin: 0 11px 0 -11px;
+          color: #2cac7a; }
+    .main-container .lecture-details .read-more-button {
+      line-height: 2;
+      padding-left: 45px; }
+    .main-container .lecture-details hr.vertical {
+      margin: 10px 10px 20px 40px; }
+    @media (max-width: 800px) {
+      .main-container .lecture-details {
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-direction: column; }
+        .main-container .lecture-details .lecture-items {
+          margin-left: 0;
+          margin-bottom: 30px; }
+          .main-container .lecture-details .lecture-items li {
+            display: inline;
+            margin-right: 19px; }
+          .main-container .lecture-details .lecture-items .icon {
+            font-size: 110%; }
+        .main-container .lecture-details .lecture-steps {
+          padding-left: 12px; }
+        .main-container .lecture-details hr.vertical {
+          display: none; }
+        .main-container .lecture-details .read-more-button {
+          padding-left: 0px; } }
+    @media (min-width: 350px) and (max-width: 800px) {
+      .main-container .lecture-details .lecture-items {
+        font-size: 20px; } }
+    @media (max-width: 350px) {
+      .main-container .lecture-details .lecture-items {
+        font-size: 18px; } }
+  .main-container .lecture-description {
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    .main-container .lecture-description .summary-title {
+      color: #ff530d;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0; }
+    .main-container .lecture-description p, .main-container .lecture-description li {
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.54); }
+    @media (max-width: 800px) {
+      .main-container .lecture-description .summary-title {
+        font-size: 18px; } }
+  @media (max-width: 800px) {
+    .main-container {
+      padding-top: 15px; } }
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon4f8b.eot?hgacq7");
+  src: url("fonts/icomoon4f8b.eot?hgacq7#iefix") format("embedded-opentype"), url("fonts/icomoon4f8b.ttf?hgacq7") format("truetype"), url("fonts/icomoon4f8b.woff?hgacq7") format("woff"), url("fonts/icomoon4f8b.svg?hgacq7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-chemistry:before, .icon-biology:before, .icon-math:before, .icon-physics:before, .icon-portuguese:before, .icon-philosophy:before, .icon-geography:before, .icon-history:before, .icon-sociology:before, .icon-ico-videos:before, .icon-ico-exercicios:before, .icon-bullet:before, .geekie-games-pro-banner .banner-points li:before, .history .lecture-subject::before, .geography .lecture-subject::before, .philosophy .lecture-subject::before, .sociology .lecture-subject::before, .biology .lecture-subject::before, .chemistry .lecture-subject::before, .physics .lecture-subject::before, .math .lecture-subject::before, .portuguese .lecture-subject::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chemistry:before {
+  content: "\e902"; }
+
+.icon-biology:before {
+  content: "\e903"; }
+
+.icon-math:before {
+  content: "\e906"; }
+
+.icon-physics:before {
+  content: "\e905"; }
+
+.icon-portuguese:before {
+  content: "\e908"; }
+
+.icon-philosophy:before {
+  content: "\e907"; }
+
+.icon-geography:before {
+  content: "\e904"; }
+
+.icon-history:before {
+  content: "\e909"; }
+
+.icon-sociology:before {
+  content: "\e90a"; }
+
+.icon-ico-videos:before {
+  content: "\e900"; }
+
+.icon-ico-exercicios:before {
+  content: "\e901"; }
+
+.icon-bullet:before, .geekie-games-pro-banner .banner-points li:before {
+  content: "\e90b"; }
+
+.lecture-subject {
+  font-size: 38px;
+  letter-spacing: -0.5px; }
+  .lecture-subject::before {
+    font-size: 90%; }
+
+.subject-header {
+  margin: 25px auto; }
+  @media (max-width: 800px) {
+    .subject-header {
+      margin: 15px auto; } }
+
+.history .lecture-subject {
+  color: #FD7635; }
+  .history .lecture-subject::before {
+    content: ""; }
+
+.geography .lecture-subject {
+  color: #FC8F35; }
+  .geography .lecture-subject::before {
+    content: ""; }
+
+.philosophy .lecture-subject {
+  color: #FBA32D; }
+  .philosophy .lecture-subject::before {
+    content: ""; }
+
+.sociology .lecture-subject {
+  color: #FFD030; }
+  .sociology .lecture-subject::before {
+    content: ""; }
+
+.biology .lecture-subject {
+  color: #4EDBA3; }
+  .biology .lecture-subject::before {
+    content: ""; }
+
+.chemistry .lecture-subject {
+  color: #49D8D3; }
+  .chemistry .lecture-subject::before {
+    content: ""; }
+
+.physics .lecture-subject {
+  color: #50B8E3; }
+  .physics .lecture-subject::before {
+    content: ""; }
+
+.math .lecture-subject {
+  color: #5E85ED; }
+  .math .lecture-subject::before {
+    content: ""; }
+
+.portuguese .lecture-subject {
+  color: #B55EED; }
+  .portuguese .lecture-subject::before {
+    content: ""; }
+
+.history .lecture-content .subject-button {
+  color: #FD7635; }
+  .history .lecture-content .subject-button:hover, .history .lecture-content .subject-button:active {
+    color: #E76B30; }
+.history .lecture-content .more-lo-button {
+  color: #FD7635; }
+  .history .lecture-content .more-lo-button:hover, .history .lecture-content .more-lo-button:active {
+    color: #E76B30; }
+
+.geography .lecture-content .subject-button {
+  color: #FC8F35; }
+  .geography .lecture-content .subject-button:hover, .geography .lecture-content .subject-button:active {
+    color: #E68230; }
+.geography .lecture-content .more-lo-button {
+  color: #FC8F35; }
+  .geography .lecture-content .more-lo-button:hover, .geography .lecture-content .more-lo-button:active {
+    color: #E68230; }
+
+.philosophy .lecture-content .subject-button {
+  color: #FBA32D; }
+  .philosophy .lecture-content .subject-button:hover, .philosophy .lecture-content .subject-button:active {
+    color: #E49328; }
+.philosophy .lecture-content .more-lo-button {
+  color: #FBA32D; }
+  .philosophy .lecture-content .more-lo-button:hover, .philosophy .lecture-content .more-lo-button:active {
+    color: #E49328; }
+
+.sociology .lecture-content .subject-button {
+  color: #FFD030; }
+  .sociology .lecture-content .subject-button:hover, .sociology .lecture-content .subject-button:active {
+    color: #E9BD2B; }
+.sociology .lecture-content .more-lo-button {
+  color: #FFD030; }
+  .sociology .lecture-content .more-lo-button:hover, .sociology .lecture-content .more-lo-button:active {
+    color: #E9BD2B; }
+
+.biology .lecture-content .subject-button {
+  color: #4EDBA3; }
+  .biology .lecture-content .subject-button:hover, .biology .lecture-content .subject-button:active {
+    color: #46C693; }
+.biology .lecture-content .more-lo-button {
+  color: #4EDBA3; }
+  .biology .lecture-content .more-lo-button:hover, .biology .lecture-content .more-lo-button:active {
+    color: #46C693; }
+
+.chemistry .lecture-content .subject-button {
+  color: #49D8D3; }
+  .chemistry .lecture-content .subject-button:hover, .chemistry .lecture-content .subject-button:active {
+    color: #42C3BF; }
+.chemistry .lecture-content .more-lo-button {
+  color: #49D8D3; }
+  .chemistry .lecture-content .more-lo-button:hover, .chemistry .lecture-content .more-lo-button:active {
+    color: #42C3BF; }
+
+.physics .lecture-content .subject-button {
+  color: #50B8E3; }
+  .physics .lecture-content .subject-button:hover, .physics .lecture-content .subject-button:active {
+    color: #49A7CE; }
+.physics .lecture-content .more-lo-button {
+  color: #50B8E3; }
+  .physics .lecture-content .more-lo-button:hover, .physics .lecture-content .more-lo-button:active {
+    color: #49A7CE; }
+
+.math .lecture-content .subject-button {
+  color: #5E85ED; }
+  .math .lecture-content .subject-button:hover, .math .lecture-content .subject-button:active {
+    color: #5579D7; }
+.math .lecture-content .more-lo-button {
+  color: #5E85ED; }
+  .math .lecture-content .more-lo-button:hover, .math .lecture-content .more-lo-button:active {
+    color: #5579D7; }
+
+.portuguese .lecture-content .subject-button {
+  color: #B55EED; }
+  .portuguese .lecture-content .subject-button:hover, .portuguese .lecture-content .subject-button:active {
+    color: #A555D7; }
+.portuguese .lecture-content .more-lo-button {
+  color: #B55EED; }
+  .portuguese .lecture-content .more-lo-button:hover, .portuguese .lecture-content .more-lo-button:active {
+    color: #A555D7; }
+
+/*# sourceMappingURL=learning_object.css.map */
