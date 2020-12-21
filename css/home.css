@@ -1292,7 +1292,7 @@ a img {
     .features-container .feature .image-2 {
       background-image: url("../img/home/image-2.png"); }
     .features-container .feature .image-3 {
-      background-image: url("../img/home/image-3.png"); }
+      background-image: url("../img/home/image-4.png"); }
     .features-container .feature .title-container {
       font-family: Lato;
       font-size: 25px;
@@ -1376,7 +1376,7 @@ a img {
     font-family: 'Roboto Slab';
     font-size: 30px; }
   .testimony-container .cover-image {
-    background-image: url("../img/home/ssk-bt.png");
+    background-image: url("../img/home/planejamento.jpg");
     background-size: cover;
     background-position: center; }
   .testimony-container .quote-mark-header {
@@ -1653,8 +1653,20 @@ a img {
           margin-right: 0px; } 
       }
 
-.gg-index>ul>li{
-  margin-left: -20px;
+.index-header{
+  white-space: nowrap;
+}
+
+.gg-index ul{
+  margin-left: -50px;
+}
+
+.gg-index ul li{
+  white-space: nowrap;
+  width: 100%;
+  margin:auto;
+  text-align: left;
+  display:block;
 }
 
 a.history:hover {
