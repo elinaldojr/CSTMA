@@ -23,10 +23,10 @@ const sr = ScrollReveal({
 });
 
 /*SCROLL HOME*/
-sr.reveal('.big-text',{}); 
-sr.reveal('.small-text',{delay: 200}); 
-sr.reveal('.subscribe-button',{delay: 400}); 
-sr.reveal('.subscribe-image-container',{ interval: 200}); 
+sr.reveal('.subscribe-image-container',{}); 
+sr.reveal('.big-text',{delay: 800}); 
+sr.reveal('.small-text',{delay: 500}); 
+sr.reveal('.subscribe-button',{delay: 200}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.image-1',{delay: 400}); 
