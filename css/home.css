@@ -1617,7 +1617,7 @@ a img {
     .index-container .section-content ul {
       padding-bottom: 5px; }
     .index-container .section-content li {
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.2;
       list-style: none; 
 	  color: #aaa;}
@@ -1651,6 +1651,9 @@ a img {
         .index-container .section-content div {
           margin-top: 25px;
           margin-right: 0px; } 
+        .gg-index ul{
+          margin-left: -120px;
+        }
       }
 
 .index-header{
