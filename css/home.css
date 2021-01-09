@@ -1309,7 +1309,8 @@ a img {
       @media (max-width: 800px) {
         .features-container .feature .feature-decription {
           margin-top: 20px;
-          margin-left: 10px; } }
+          margin-left: 10px; } 
+        }
     .features-container .feature .description-container {
       -webkit-box-flex: 1;
       -moz-box-flex: 1;
@@ -1625,7 +1626,15 @@ a img {
       color: rgba(255, 255, 255, 0.54); }
     .index-container .section-content .gg-index a:hover {
       color: #ff530d; }
+
+    .subscribe-top-header .features-title h2{
+      text-align: center; 
+      color: #117722;
+    }
     @media (max-width: 800px) {
+      .subscribe-top-header .features-title h2{
+        font-size: 16px;
+      }
       .index-container .section-content {
         -webkit-box-align: center;
         -moz-box-align: center;
