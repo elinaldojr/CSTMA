@@ -1377,7 +1377,7 @@ a img {
     font-family: 'Roboto Slab';
     font-size: 30px; }
   .testimony-container .cover-image {
-    background-image: url("../img/home/planejamento.jpg");
+    background-image: url("../img/home/planejamento.png");
     background-size: cover;
     background-position: center; }
   .testimony-container .quote-mark-header {
@@ -1442,6 +1442,9 @@ a img {
   .media-container .partner-logo-group-container {
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
     /* IE Fix (does not support object-fit, so use a div) */ }
     .media-container .partner-logo-group-container .partner-logo {
       height: 50px;
@@ -1734,3 +1737,39 @@ div {
 	margin-top:16px;
 }
 /*# sourceMappingURL=home.css.map */
+
+.area-atuacao {
+  width: 250px;
+  height: 160px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.area-atuacao img {
+  width: 100%;
+}
+
+.sobre {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(0);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+.sobre h3{
+  font-weight: bold;
+}
+
+.area-atuacao:hover .sobre {
+  transform: translateY(101%);
+}

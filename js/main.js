@@ -26,7 +26,6 @@ const sr = ScrollReveal({
 sr.reveal('.subscribe-image-container',{}); 
 sr.reveal('.big-text',{delay: 800}); 
 sr.reveal('.small-text',{delay: 500}); 
-sr.reveal('.subscribe-button',{delay: 200}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.image-1',{delay: 400}); 
