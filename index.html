@@ -16,9 +16,20 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="css/home.css" rel="stylesheet" />
+  <link href="css/menu.css" rel="stylesheet" />
 </head>
 
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="#" class="active">Início</a>
+    <a href="servicos.html#servicos">Serviços</a>
+    <a href="treinamentos.html#treinamentos">Treinamentos</a>
+    <a href="contato.html#contato">Contato</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
   <div class="section-container header-container" style="height:550px;">
     <div class="stripes-header"></div>
     <div class="section-content">
@@ -36,8 +47,8 @@
           <div class="small-text">
             <h1>Temos uma equipe capacitada pronta para lhe oferecer as melhores soluções.</h1>
           </div>
-          <a href="#equipe" data-ga-event="subscribe-cta-main" class="subscribe-button">
-            COMECE AGORA
+          <a href="servicos.html#servicos" data-ga-event="subscribe-cta-main" class="subscribe-button" >
+            Nossos serviços
           </a>
         </div>
         <div class="subscribe-image-container">
@@ -192,7 +203,7 @@
       <div class="subscribe-text">
         <h1>Conheça agora nossos <strong>treinamentos</strong> e <strong>capacitações</strong>.</h1>
       </div>
-      <a href="#equipe" data-ga-event="subscribe-cta-last" class="subscribe-button">
+      <a href="treinamentos.html#treinamentos" data-ga-event="subscribe-cta-last" class="subscribe-button">
         COMECE AGORA
       </a>
     </div>
@@ -299,6 +310,18 @@
     var d = new Date();
     var ano = d.getFullYear();
     document.getElementById("anoAtual").innerHTML = ano;
+  </script>
+
+  <!--Menu-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
   </script>
 
   <!--===== SCROLL REVEAL =====-->

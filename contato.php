@@ -17,14 +17,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="css/home.css" rel="stylesheet" />
   <link href="css/menu.css" rel="stylesheet" />
+  <link href="css/contact.css" rel="stylesheet" />
 </head>
 
 <body>
   <div class="topnav" id="myTopnav">
     <a href="index.html">Início</a>
-    <a href="#servicos" class="active">Serviços</a>
+    <a href="servicos.html#servicos">Serviços</a>
     <a href="treinamentos.html#treinamentos">Treinamentos</a>
-    <a href="contato.html#contato">Contato</a>
+    <a href="#" class="active">Contato</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -58,40 +59,14 @@
     </div>
   </div>
   
-  <div class="section-container">
-    <div class="play-store-content" id="servicos">
-      <h2 style="text-align:center;">SERVIÇOS OFERECIDOS</h2>
-      
-      <ul>
-        <li>Vistoria nas instalações da empresa para verificar o ambiente de trabalho, buscando identificar não conformidades de acordo com Normas;</li>
-        <li>Visitas fixas pré estabelecidas para: acompanhar a implementação do PPRA, PCMSO, condicionantes ambientais e demais processos necessários para prevenir acidentes e doenças ocupacionais;</li> 
-        <li>Elaboração de relatórios das não conformidades identificadas com diagnóstico técnico  das mesmas;</li>
-        <li>Orientações e recomendações de segurança para adequação da empresa às normas e leis de segurança e medicina do trabalho;</li>
-        <li>Levantamento dos EPI's;</li>
-        <li>Registro dos EPI's nas fichas individuais;</li>
-        <li>Fiscalizar o uso dos EPI's;</li>
-        <li>Acompanhamento e orientação de atividades de risco como: trabalho em altura, riscos elétricos etc;</li>
-        <li>Elaboração de relatórios de Segurança de não conformidades;</li>
-        <li>Investigar acidentes ocorridos, examinar as condições, identificar suas causas e propor providências cabíveis;</li>
-        <li>Elaboração de relatórios  após acidente de trabalho;</li>
-        <li>Elaboração do Programa de Prevenção de Riscos Ambientais (PPRA);</li>
-        <li>Elaboração do Programa de Controle Médico de Saúde Ocupacional (PCMSO);</li>
-        <li>ASO – Atestado de Saúde Ocupacional;</li>
-        <li>Relatório Médico;</li>
-        <li>Realização de Palestras  de Segurança;</li>
-        <li>Elaboração: PPP - Perfil Profissiográfico Previdenciário;</li>
-        <li>Laudo Técnico de Condições Ambientais do Trabalho - LTCAT;</li>
-        <li>Analise Ergonômica do Trabalho - AET;</li>
-        <li>Elaboração de PCMAT;</li>
-        <li>Elaboração PGRRS;</li>
-        <li>Elaboração Plano de Emergência;</li>
-        <li>Elaboração Projeto de Incêndio;</li>
-        <li>Elaboração Projeto SPDA; </li>
-        <li>Avaliações Psicológicas, Consultas, Relatórios, Acompanhamentos, Psicotestes.</li>
-      </ul>
+  <?php
+    $assunto = wordwrap($assunto,70);
 
-    </div>
-  </div>
+    $assunto = "Nome: ".$nome."<br>Cidade: ".$cidade."<br>E-mail: ".$email."<br><br>".$assunto
+    // send email
+    mail("jrdulahan@gmail.com", "Contato pelo site", $assunto);
+    ?>
+  ?>
 
   <div class="section-container footer-container">
     <div class="section-content footer-content">

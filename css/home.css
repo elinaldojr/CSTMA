@@ -708,6 +708,10 @@ body {
 .section-container {
   font-family: "Lato",Helvetica,Arial,sans-serif; }
 
+.header-container{
+  padding-top: 20px;
+}
+
 .section-content {
   max-width: 960px;
   margin: 0 auto;
@@ -1482,6 +1486,15 @@ a img {
   .play-store-content a {
     margin-top: 25px;
     display: block; }
+
+  .play-store-content ul{
+    text-align: left;
+    font-size: 16px;
+  }
+  .play-store-content ul li{
+    margin-bottom: 10px;
+  }
+
   @media (max-width: 800px) {
     .play-store-content {
       text-align: center;
