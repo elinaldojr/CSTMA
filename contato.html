@@ -61,7 +61,7 @@
   
   <div id="contato" class="container">
     <h2 style="text-align: center;">Entre em contato conosco!</h2>
-    <form action="contato.php" method="post" enctype="text/plain">
+    <form action="contato.php" method="POST">
       <div class="row">
         <div class="col-10">
           <label for="nome">Nome</label>
@@ -89,16 +89,59 @@
       
       <div class="row">
         <div class="col-10">
-          <label for="assunto">Assunto</label>
+          <label for="mensagem">Mensagem</label>
         </div>
         <div class="col-90">
-          <textarea id="assunto" name="assunto" placeholder="Escreva algo..." style="height:200px"></textarea>
+          <textarea id="mensagem" name="mensagem" placeholder="Escreva algo..." style="height:200px"></textarea>
         </div>
       </div>
       <div class="row">
         <input type="submit" value="Enviar">
       </div>
     </form>
+
+    <script src="js/validate.js"></script>
+    <script>
+      const constraints = {
+          nome: {
+              presence: { allowEmpty: false }
+          },
+          email: {
+              presence: { allowEmpty: false },
+              email: true
+          },
+          cidade: {
+              presence: { allowEmpty: false },
+              cidade: true
+          },
+          mensagem: {
+              presence: { allowEmpty: false }
+          }
+      };
+
+      const form = document.getElementById('contato');
+
+      form.addEventListener('submit', function (event) {
+        const formValues = {
+            nome: form.elements.nome.value,
+            email: form.elements.email.value,
+            cidade: form.elements.cidade.value,
+            mensagem: form.elements.message.value
+        };
+
+        const errors = validate(formValues, constraints);
+
+        if (errors) {
+          event.preventDefault();
+          const errorMessage = Object
+              .values(errors)
+              .map(function (fieldValues) { return fieldValues.join(', ')})
+              .join("\n");
+
+          alert(errorMessage);
+        }
+      }, false);
+    </script>
   </div>
 
   <div class="section-container footer-container">

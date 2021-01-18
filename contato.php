@@ -60,13 +60,58 @@
   </div>
   
   <?php
-    $assunto = wordwrap($assunto,70);
+    $errors = [];
+    $errorMessage = '';
+    $confirmacao = '';
+    
+    if (!empty($_POST)) {
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $cidade = $_POST['cidade'];
+        $mensagem = $_POST['mensagem'];
+    
+        if (empty($nome)) {
+            $errors[] = 'Nome em branco';
+        }
+    
+        if (empty($email)) {
+            $errors[] = 'Email em branco';
+        } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $errors[] = 'Email inválido';
+        }
+    
+        if (empty($mensagem)) {
+            $errors[] = 'Memssagem em branco';
+        }
+    
+        if (empty($cidade)) {
+          $errors[] = 'Cidade em branco';
+        }
 
-    $assunto = "Nome: ".$nome."<br>Cidade: ".$cidade."<br>E-mail: ".$email."<br><br>".$assunto
-    // send email
-    mail("jrdulahan@gmail.com", "Contato pelo site", $assunto);
+        if (empty($errors)) {
+            $toEmail = 'jrdulahan@gmail.com, esgjunior@uesc.br';
+            $emailSubject = 'Novo email do formulário de contato (Site)';
+            $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+    
+            $bodyParagraphs = ["Nome: {$nome}", "<br>Email: {$email}", "<br>Cidade: {$cidade}", "<br><br>Menssagem:", $mensagem];
+            $body = join(PHP_EOL, $bodyParagraphs);
+    
+            if (mail($toEmail, $emailSubject, $body, $headers)) {
+                //header('Location: contato.html');
+                $confirmacao = "Sua mensagem foi enviado com sucesso. Em breve entraremos em contato.";
+            } else {
+                $errorMessage = 'Oops, aconteceu algo de errado. Por favor tente novamente mais tarde';
+            }
+        } else {
+            $allErrors = join('<br/>', $errors);
+            $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+        }
+    }
+    
     ?>
-  ?>
+  <div id="contato" class="container">
+    <h2 style="text-align: center;"><?php echo $confirmacao;?></h2>
+  </div>
 
   <div class="section-container footer-container">
     <div class="section-content footer-content">
