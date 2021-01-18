@@ -89,7 +89,7 @@
         }
 
         if (empty($errors)) {
-            $toEmail = 'jrdulahan@gmail.com, esgjunior@uesc.br';
+            $toEmail = 'cerqueiramoura@hotmail.com, marcelokarate2003@yahoo.com.br';
             $emailSubject = 'Novo email do formulário de contato (Site)';
             $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
     
