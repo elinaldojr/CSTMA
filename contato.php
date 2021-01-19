@@ -69,6 +69,7 @@
         $email = $_POST['email'];
         $cidade = $_POST['cidade'];
         $mensagem = $_POST['mensagem'];
+
     
         if (empty($nome)) {
             $errors[] = 'Nome em branco';
@@ -87,7 +88,7 @@
         if (empty($cidade)) {
           $errors[] = 'Cidade em branco';
         }
-
+        
         if (empty($errors)) {
             $toEmail = 'cerqueiramoura@hotmail.com, marcelokarate2003@yahoo.com.br';
             $emailSubject = 'Novo email do formulário de contato (Site)';
@@ -106,6 +107,7 @@
             $allErrors = join('<br/>', $errors);
             $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
         }
+      }
     }
     
     ?>
