@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="css/home.css" rel="stylesheet" />
   <link href="css/menu.css" rel="stylesheet" />
-  <link href="css/contact.css" rel="stylesheet" />
 </head>
 
 <body>
