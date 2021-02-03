@@ -42,7 +42,7 @@
           <h2>Assessoria em Saúde e Segurança do Trabalho.</h2>
         </div>
       </div>
-      
+
       <div class="subscribe-content">
         <div class="subscribe-table-content">
           <div class="big-text">
@@ -51,7 +51,7 @@
           <div class="small-text">
             <h1>Temos uma equipe capacitada pronta para lhe oferecer as melhores soluções.</h1>
           </div>
-          <a href="servicos.html#servicos" data-ga-event="subscribe-cta-main" class="subscribe-button" >
+          <a href="servicos.html#servicos" data-ga-event="subscribe-cta-main" class="subscribe-button">
             Nossos serviços
           </a>
         </div>
@@ -61,196 +61,239 @@
       </div>
     </div>
   </div>
-  
+
   <div id="contato" class="container">
     <h2 style="text-align: center;">Entre em contato conosco!</h2>
     <form action="contato.php" method="POST" id="formulario">
-      <div class="row">
-        <div class="col-10">
-          <label for="nome">Nome</label>
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <h3>Nossos canais de atendimento:</h3>
+
+          <div class="media pb-0">
+            <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+            <div class="media-body">
+              <p class="mb-1">De Segunda a Sexta das 09h às 17h</p>
+            </div>
+          </div>
+          <div class="media">
+            <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+            <div class="media-body">
+              <p class="mb-1"><a href="tel:73-98837-7982" target="_blank" class="link-geral">+55 (73)
+                  98837-7982</a></p>
+            </div>
+          </div>
+          <div class="media">
+            <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>
+            <div class="media-body">
+              <p class="mb-1"><a href="https://api.whatsapp.com/send?phone=5573988377982" target="_blank"
+                  class="link-geral">Atendimento via WhatsApp</a></p>
+            </div>
+          </div>
+
+          <div class="media">
+            <i class="fa fa-envelope mr-2" aria-hidden="true"></i>
+            <div class="media-body">
+              <p class="mb-1">Atendimento: <a href="mailto:contato@cstma.com.br" target="_blank"
+                  class="link-geral">contato@cstma.com.br</a></p>
+            </div>
+          </div>
+
+         
         </div>
-        <div class="col-90">
-          <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome...">
+
+
+        <div class="flex-item-right">
+          <h3>Envie-nos uma mensagem!</h3>
+          <div class="row">
+            <div class="col-15">
+              <label for="nome">Nome</label>
+            </div>
+            <div class="col-85">
+              <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome...">
+            </div>
+            <div class="messages"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-15">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="col-85">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Seu e-mail...">
+            </div>
+            <div class="messages"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-15">
+              <label for="cidade">Cidade</label>
+            </div>
+            <div class="col-85">
+              <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Sua cidade...">
+            </div>
+            <div class="messages"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-15">
+              <label for="mensagem">Mensagem</label>
+            </div>
+            <div class="col-85">
+              <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Escreva-nos uma mensagem..."
+                style="height:200px"></textarea>
+              <div class="messages"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
         </div>
-        <div class="messages"></div>
       </div>
 
-      <div class="row">
-        <div class="col-10">
-          <label for="email">E-mail</label>
-        </div>
-        <div class="col-90">
-          <input type="email" class="form-control" id="email" name="email" placeholder="Seu e-mail...">
-        </div>
-        <div class="messages"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-10">
-          <label for="cidade">Cidade</label>
-        </div>
-        <div class="col-90">
-          <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Sua cidade...">
-        </div>
-        <div class="messages"></div>
-      </div>
-      
-      <div class="row">
-        <div class="col-10">
-          <label for="mensagem">Mensagem</label>
-        </div>
-        <div class="col-90">
-          <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Escreva-nos uma mensagem..." style="height:200px"></textarea>
-          <div class="messages"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <input type="submit" value="Enviar">
-      </div>
     </form>
 
     <script>
-      (function() {
-      // Before using it we must add the parse and format functions
-      // Here is a sample implementation using moment.js
-      validate.extend(validate.validators.datetime, {
-        // The value is guaranteed not to be null or undefined but otherwise it
-        // could be anything.
-        parse: function(value, options) {
-          return +moment.utc(value);
-        },
-        // Input is a unix timestamp
-        format: function(value, options) {
-          return moment.utc(value).format(format);
-        }
-      });
+      (function () {
+        // Before using it we must add the parse and format functions
+        // Here is a sample implementation using moment.js
+        validate.extend(validate.validators.datetime, {
+          // The value is guaranteed not to be null or undefined but otherwise it
+          // could be anything.
+          parse: function (value, options) {
+            return +moment.utc(value);
+          },
+          // Input is a unix timestamp
+          format: function (value, options) {
+            return moment.utc(value).format(format);
+          }
+        });
 
-      // These are the constraints used to validate the form
-      var constraints = {
-        email: {
-          // Email is required
-          presence: true,
-          // and must be an email (duh)
-          email: true
-        },
-        nome: {
-          // You need to pick a username too
-          presence: true
-        },
-        cidade: {
-          // cidade is required
-          presence: true
-        },
-        mensagem: {
-          // mensagem is required
-          presence: true
-        },
-        zip: {
-          // Zip is optional but if specified it must be a 5 digit long number
-          format: {
-            pattern: "\\d{5}"
+        // These are the constraints used to validate the form
+        var constraints = {
+          email: {
+            // Email is required
+            presence: true,
+            // and must be an email (duh)
+            email: true
+          },
+          nome: {
+            // You need to pick a username too
+            presence: true
+          },
+          cidade: {
+            // cidade is required
+            presence: true
+          },
+          mensagem: {
+            // mensagem is required
+            presence: true
+          },
+          zip: {
+            // Zip is optional but if specified it must be a 5 digit long number
+            format: {
+              pattern: "\\d{5}"
+            }
+          }
+        };
+
+        // Hook up the form so we can prevent it from being posted
+        //var form = document.querySelector("form#main");
+        var form = document.getElementById("formulario");
+
+        form.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          handleFormSubmit(form);
+        });
+
+        // Hook up the inputs to validate on the fly
+        var inputs = document.querySelectorAll("input, textarea")
+        for (var i = 0; i < inputs.length; ++i) {
+          inputs.item(i).addEventListener("change", function (ev) {
+            var errors = validate(form, constraints) || {};
+            showErrorsForInput(this, errors[this.name])
+          });
+        }
+
+        function handleFormSubmit(form, input) {
+          // validate the form against the constraints
+          var errors = validate(form, constraints);
+          // then we update the form to reflect the results
+          showErrors(form, errors || {});
+          if (!errors) {
+            showSuccess();
           }
         }
-      };
 
-      // Hook up the form so we can prevent it from being posted
-      //var form = document.querySelector("form#main");
-      var form = document.getElementById("formulario");
-      
-      form.addEventListener("submit", function(ev) {
-        ev.preventDefault();
-        handleFormSubmit(form);
-      });
-
-      // Hook up the inputs to validate on the fly
-      var inputs = document.querySelectorAll("input, textarea")
-      for (var i = 0; i < inputs.length; ++i) {
-        inputs.item(i).addEventListener("change", function(ev) {
-          var errors = validate(form, constraints) || {};
-          showErrorsForInput(this, errors[this.name])
-        });
-      }
-
-      function handleFormSubmit(form, input) {
-        // validate the form against the constraints
-        var errors = validate(form, constraints);
-        // then we update the form to reflect the results
-        showErrors(form, errors || {});
-        if (!errors) {
-          showSuccess();
-        }
-      }
-
-      // Updates the inputs with the validation errors
-      function showErrors(form, errors) {
-        // We loop through all the inputs and show the errors for that input
-        _.each(form.querySelectorAll("input[name], textarea[name]"), function(input) {
-          // Since the errors can be null if no errors were found we need to handle
-          // that
-          showErrorsForInput(input, errors && errors[input.name]);
-        });
-      }
-
-      // Shows the errors for a specific input
-      function showErrorsForInput(input, errors) {
-        // This is the root of the input
-        var formGroup = closestParent(input.parentNode, "row")
-          // Find where the error messages will be insert into
-          , messages = formGroup.querySelector(".messages");
-        // First we remove any old messages and resets the classes
-        resetFormGroup(formGroup);
-        // If we have errors
-        if (errors) {
-          // we first mark the group has having errors
-          formGroup.classList.add("has-error");
-          // then we append all the errors
-          _.each(errors, function(error) {
-            addError(messages, error);
+        // Updates the inputs with the validation errors
+        function showErrors(form, errors) {
+          // We loop through all the inputs and show the errors for that input
+          _.each(form.querySelectorAll("input[name], textarea[name]"), function (input) {
+            // Since the errors can be null if no errors were found we need to handle
+            // that
+            showErrorsForInput(input, errors && errors[input.name]);
           });
-        } else {
-          // otherwise we simply mark it as success
-          formGroup.classList.add("has-success");
         }
-      }
 
-      // Recusively finds the closest parent that has the specified class
-      function closestParent(child, className) {
-        if (!child || child == document) {
-          return null;
+        // Shows the errors for a specific input
+        function showErrorsForInput(input, errors) {
+          // This is the root of the input
+          var formGroup = closestParent(input.parentNode, "row")
+            // Find where the error messages will be insert into
+            , messages = formGroup.querySelector(".messages");
+          // First we remove any old messages and resets the classes
+          resetFormGroup(formGroup);
+          // If we have errors
+          if (errors) {
+            // we first mark the group has having errors
+            formGroup.classList.add("has-error");
+            // then we append all the errors
+            _.each(errors, function (error) {
+              addError(messages, error);
+            });
+          } else {
+            // otherwise we simply mark it as success
+            formGroup.classList.add("has-success");
+          }
         }
-        if (child.classList.contains(className)) {
-          return child;
-        } else {
-          return closestParent(child.parentNode, className);
+
+        // Recusively finds the closest parent that has the specified class
+        function closestParent(child, className) {
+          if (!child || child == document) {
+            return null;
+          }
+          if (child.classList.contains(className)) {
+            return child;
+          } else {
+            return closestParent(child.parentNode, className);
+          }
         }
-      }
 
-      function resetFormGroup(formGroup) {
-        // Remove the success and error classes
-        formGroup.classList.remove("has-error");
-        formGroup.classList.remove("has-success");
-        // and remove any old messages
-        _.each(formGroup.querySelectorAll(".help-block.error"), function(el) {
-          el.parentNode.removeChild(el);
-        });
-      }
+        function resetFormGroup(formGroup) {
+          // Remove the success and error classes
+          formGroup.classList.remove("has-error");
+          formGroup.classList.remove("has-success");
+          // and remove any old messages
+          _.each(formGroup.querySelectorAll(".help-block.error"), function (el) {
+            el.parentNode.removeChild(el);
+          });
+        }
 
-      // Adds the specified error with the following markup
-      // <p class="help-block error">[message]</p>
-      function addError(messages, error) {
-        var block = document.createElement("p");
-        block.classList.add("help-block");
-        block.classList.add("error");
-        block.innerText = error;
-        messages.appendChild(block);
-      }
+        // Adds the specified error with the following markup
+        // <p class="help-block error">[message]</p>
+        function addError(messages, error) {
+          var block = document.createElement("p");
+          block.classList.add("help-block");
+          block.classList.add("error");
+          block.innerText = error;
+          messages.appendChild(block);
+        }
 
-      function showSuccess() {
-        // We made it \:D/
-        return true;
-      }
-    })();
+        function showSuccess() {
+          // We made it \:D/
+          return true;
+        }
+      })();
     </script>
   </div>
 
@@ -264,8 +307,9 @@
       </div>
     </div>
   </div>
-  
-  <a href="https://api.whatsapp.com/send?phone=5573988377982&text=Oi, como podemos te ajudar?" class="float" target="_blank">
+
+  <a href="https://api.whatsapp.com/send?phone=5573988377982&text=Oi, como podemos te ajudar?" class="float"
+    target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
   </a>
 
