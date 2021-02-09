@@ -31,7 +31,7 @@
   </div>
 
   <div class="section-container header-container" style="height:550px;">
-    <div class="stripes-header"></div>
+    
     <div class="section-content">
       <div class="subscribe-top-header">
         <div class="features-title" style="margin:auto; width:100%;">
