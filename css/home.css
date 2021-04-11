@@ -1451,18 +1451,21 @@ a img {
     justify-content: center
     /* IE Fix (does not support object-fit, so use a div) */ }
     .media-container .partner-logo-group-container .partner-logo {
-      height: 50px;
-      width: 15%;
-      margin: 15px 0;
-      object-fit: contain; }
+      height: 70px;
+      width: 20%;
+      margin: 10px 5px;
+      object-fit: cover; }
+   
       @media (max-width: 800px) {
         .media-container .partner-logo-group-container .partner-logo {
           width: 35%; } }
       @media (min-width: 799px) {
         .media-container .partner-logo-group-container .partner-logo + .partner-logo {
-          margin-left: 25px; } }
+          margin-left: 0; } }
+
     .media-container .partner-logo-group-container div.partner-logo {
       display: inline-block; }
+      
       .media-container .partner-logo-group-container div.partner-logo img {
         max-height: 100%;
         max-width: 100%; }
